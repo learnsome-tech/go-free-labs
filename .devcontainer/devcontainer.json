@@ -1,0 +1,20 @@
+{
+  "name": "Concurrent Systems Programming with Go labs",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": false,
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    },
+    "vscode": {
+      "extensions": [
+        "golang.go"
+      ]
+    }
+  }
+}
